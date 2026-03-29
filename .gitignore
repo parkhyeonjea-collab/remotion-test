@@ -3,3 +3,4 @@ out/
 dist/
 video-script.json
 .env
+tts-models/
