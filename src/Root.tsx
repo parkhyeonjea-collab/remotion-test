@@ -1,37 +1,36 @@
 import React from "react";
 import { Composition } from "remotion";
 import { VideoComposition } from "./compositions/VideoComposition";
-import type { VideoScript } from "./types";
+import type { ShortsScript } from "./types";
 
-// Fallback script for when video-script.json doesn't exist yet
-const fallbackScript: VideoScript = {
-  title: "Sample Video",
+const fallbackScript: ShortsScript = {
+  title: "Sample Shorts",
   fps: 30,
-  width: 1920,
-  height: 1080,
+  width: 1080,
+  height: 1920,
   scenes: [
     {
       id: 1,
-      title: "Qwen3 + Remotion",
-      text: "Run 'npm run generate' to create a video script with Qwen3 AI",
-      backgroundColor: "#1a1a2e",
-      textColor: "#e94560",
-      durationInFrames: 120,
-    },
-    {
-      id: 2,
-      title: "How it works",
-      text: "Qwen3 generates structured scene data, and Remotion renders it into a video",
-      backgroundColor: "#16213e",
-      textColor: "#0f3460",
-      durationInFrames: 120,
+      durationInFrames: 60,
+      backgroundColor: "#0a0a0a",
+      position: { horizontal: "center", vertical: "center" },
+      lines: [
+        {
+          text: "Run npm run generate first",
+          effect: "scale",
+          fontSize: 72,
+          color: "#FFFFFF",
+          delay: 0,
+          bold: true,
+        },
+      ],
     },
   ],
 };
 
-let videoScript: VideoScript;
+let videoScript: ShortsScript;
 try {
-  videoScript = require("../video-script.json") as VideoScript;
+  videoScript = require("../video-script.json") as ShortsScript;
 } catch {
   videoScript = fallbackScript;
 }
