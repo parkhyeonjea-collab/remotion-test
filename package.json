@@ -1,0 +1,23 @@
+{
+  "name": "remotion-qwen3-video",
+  "version": "1.0.0",
+  "description": "Qwen3 AI + Remotion으로 영상 자동 생성",
+  "scripts": {
+    "generate": "ts-node src/generate-script.ts",
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts VideoComposition out/video.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.242",
+    "openai": "^4.73.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.242"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
