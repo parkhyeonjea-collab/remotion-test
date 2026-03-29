@@ -1,31 +1,26 @@
 export type SlideDirection = "top" | "bottom" | "left" | "right";
-export type TextEffect = "slide" | "scale" | "typing" | "charByChar" | "shake";
+export type TextEffect = "slide" | "scale" | "typing" | "charByChar" | "shake" | "fadeIn";
 export type TextAlign = "left" | "center" | "right";
-export type VerticalPosition = "top" | "center" | "bottom" | "upper" | "lower";
 
-export interface TextLine {
+export interface TextBlock {
   text: string;
   effect: TextEffect;
   direction?: SlideDirection;
   fontSize?: number;
   color?: string;
-  highlight?: boolean; // keyword emphasis
-  delay?: number; // frames delay within scene
+  highlight?: boolean;
+  startFrame: number; // when this text appears
   bold?: boolean;
 }
 
 export interface SceneConfig {
   id: number;
-  lines: TextLine[];
+  blocks: TextBlock[];
   durationInFrames: number;
   backgroundColor: string;
-  position: {
-    horizontal: TextAlign;
-    vertical: VerticalPosition;
-  };
-  transition?: "zoomIn" | "zoomOut" | "cut" | "flash";
+  audioFile: string;
+  transition?: "zoomIn" | "zoomOut" | "flash" | "cut";
   shake?: boolean;
-  zoom?: number; // base zoom level 1.0
 }
 
 export interface ShortsScript {

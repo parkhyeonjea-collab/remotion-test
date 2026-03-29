@@ -4,23 +4,23 @@ import { VideoComposition } from "./compositions/VideoComposition";
 import type { ShortsScript } from "./types";
 
 const fallbackScript: ShortsScript = {
-  title: "Sample Shorts",
+  title: "Sample",
   fps: 30,
   width: 1080,
   height: 1920,
   scenes: [
     {
       id: 1,
-      durationInFrames: 60,
+      durationInFrames: 90,
       backgroundColor: "#0a0a0a",
-      position: { horizontal: "center", vertical: "center" },
-      lines: [
+      audioFile: "audio/scene_1.wav",
+      blocks: [
         {
-          text: "Run npm run generate first",
+          text: "스크립트를 먼저 생성하세요",
           effect: "scale",
           fontSize: 72,
           color: "#FFFFFF",
-          delay: 0,
+          startFrame: 0,
           bold: true,
         },
       ],

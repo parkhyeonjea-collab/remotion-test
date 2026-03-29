@@ -1,0 +1,350 @@
+{
+  "title": "폰 정지 전 대처법 - 쇼츠",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": 1,
+      "durationInFrames": 261,
+      "backgroundColor": "#0a0a0a",
+      "audioFile": "audio/scene_1.wav",
+      "transition": "flash",
+      "shake": false,
+      "blocks": [
+        {
+          "text": "정지 예정 문자",
+          "effect": "shake",
+          "fontSize": 78,
+          "color": "#FF3B3B",
+          "highlight": true,
+          "startFrame": 0,
+          "bold": true
+        },
+        {
+          "text": "받으셨나요?",
+          "effect": "scale",
+          "fontSize": 74,
+          "color": "#FFFFFF",
+          "highlight": false,
+          "startFrame": 15,
+          "bold": true
+        },
+        {
+          "text": "당장 납부가 어렵다면,",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 58,
+          "color": "#CCCCCC",
+          "startFrame": 75,
+          "bold": false
+        },
+        {
+          "text": "오늘 바로 해결할 수 있어요.",
+          "effect": "scale",
+          "fontSize": 66,
+          "color": "#FFD600",
+          "highlight": true,
+          "startFrame": 110,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "durationInFrames": 352,
+      "backgroundColor": "#0d0d14",
+      "audioFile": "audio/scene_2.wav",
+      "transition": "zoomIn",
+      "blocks": [
+        {
+          "text": "통신요금 미납,",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 62,
+          "color": "#FFFFFF",
+          "startFrame": 0,
+          "bold": true
+        },
+        {
+          "text": "정지 예정 문자가 왔다고",
+          "effect": "slide",
+          "direction": "right",
+          "fontSize": 58,
+          "color": "#CCCCCC",
+          "startFrame": 18,
+          "bold": false
+        },
+        {
+          "text": "바로 끊기는 건 아니에요.",
+          "effect": "scale",
+          "fontSize": 64,
+          "color": "#4FC3F7",
+          "highlight": true,
+          "startFrame": 55,
+          "bold": true
+        },
+        {
+          "text": "하지만 완전 차단 전에",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 56,
+          "color": "#AAAAAA",
+          "startFrame": 150,
+          "bold": false
+        },
+        {
+          "text": "미리 대비하는 게 안전하죠.",
+          "effect": "shake",
+          "fontSize": 64,
+          "color": "#FF9800",
+          "highlight": true,
+          "startFrame": 185,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "durationInFrames": 331,
+      "backgroundColor": "#0a0a12",
+      "audioFile": "audio/scene_3.wav",
+      "transition": "flash",
+      "blocks": [
+        {
+          "text": "번호를 꼭 유지해야 한다면",
+          "effect": "slide",
+          "direction": "top",
+          "fontSize": 56,
+          "color": "#CCCCCC",
+          "startFrame": 0,
+          "bold": false
+        },
+        {
+          "text": "→ 번호이동",
+          "effect": "scale",
+          "fontSize": 76,
+          "color": "#4FC3F7",
+          "highlight": true,
+          "startFrame": 25,
+          "bold": true
+        },
+        {
+          "text": "번호를 바꿔도 괜찮다면",
+          "effect": "slide",
+          "direction": "bottom",
+          "fontSize": 56,
+          "color": "#CCCCCC",
+          "startFrame": 115,
+          "bold": false
+        },
+        {
+          "text": "→ 선불폰 신규 개통",
+          "effect": "shake",
+          "fontSize": 72,
+          "color": "#00E676",
+          "highlight": true,
+          "startFrame": 145,
+          "bold": true
+        },
+        {
+          "text": "이 더 빨라요!",
+          "effect": "scale",
+          "fontSize": 66,
+          "color": "#FFD600",
+          "highlight": true,
+          "startFrame": 195,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "durationInFrames": 700,
+      "backgroundColor": "#0d0d0d",
+      "audioFile": "audio/scene_4.wav",
+      "transition": "zoomOut",
+      "blocks": [
+        {
+          "text": "먼저 유심부터",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 66,
+          "color": "#FFFFFF",
+          "startFrame": 0,
+          "bold": true
+        },
+        {
+          "text": "구해야겠죠?",
+          "effect": "scale",
+          "fontSize": 70,
+          "color": "#FFD600",
+          "highlight": true,
+          "startFrame": 18,
+          "bold": true
+        },
+        {
+          "text": "KT 바로유심",
+          "effect": "shake",
+          "fontSize": 68,
+          "color": "#FF5252",
+          "highlight": true,
+          "startFrame": 90,
+          "bold": true
+        },
+        {
+          "text": "세븐일레븐 · CU · GS25 · 이마트24",
+          "effect": "typing",
+          "fontSize": 44,
+          "color": "#CCCCCC",
+          "startFrame": 130,
+          "bold": false
+        },
+        {
+          "text": "LG 원칩유심",
+          "effect": "shake",
+          "fontSize": 68,
+          "color": "#AB47BC",
+          "highlight": true,
+          "startFrame": 280,
+          "bold": true
+        },
+        {
+          "text": "배민마트 · 스토리웨이 · 이마트24",
+          "effect": "typing",
+          "fontSize": 44,
+          "color": "#CCCCCC",
+          "startFrame": 320,
+          "bold": false
+        },
+        {
+          "text": "편의점에서 바로 구할 수 있어요!",
+          "effect": "scale",
+          "fontSize": 60,
+          "color": "#00E5FF",
+          "highlight": true,
+          "startFrame": 520,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "durationInFrames": 395,
+      "backgroundColor": "#0a0a0a",
+      "audioFile": "audio/scene_5.wav",
+      "transition": "flash",
+      "shake": false,
+      "blocks": [
+        {
+          "text": "유심 샀으면",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 64,
+          "color": "#FFFFFF",
+          "startFrame": 0,
+          "bold": true
+        },
+        {
+          "text": "개통만 하면 끝!",
+          "effect": "shake",
+          "fontSize": 76,
+          "color": "#FFD600",
+          "highlight": true,
+          "startFrame": 20,
+          "bold": true
+        },
+        {
+          "text": "① 라이트모바일 접속",
+          "effect": "slide",
+          "direction": "right",
+          "fontSize": 52,
+          "color": "#4FC3F7",
+          "startFrame": 100,
+          "bold": true
+        },
+        {
+          "text": "② 신규 개통 선택",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 52,
+          "color": "#66BB6A",
+          "startFrame": 150,
+          "bold": true
+        },
+        {
+          "text": "③ 플랜 선택 후 결제",
+          "effect": "slide",
+          "direction": "right",
+          "fontSize": 52,
+          "color": "#FF9800",
+          "startFrame": 200,
+          "bold": true
+        },
+        {
+          "text": "④ 유심 장착 후 재부팅",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 52,
+          "color": "#AB47BC",
+          "startFrame": 250,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "durationInFrames": 318,
+      "backgroundColor": "#0d0d14",
+      "audioFile": "audio/scene_6.wav",
+      "transition": "zoomIn",
+      "blocks": [
+        {
+          "text": "요금 걱정 없이 쓸 수 있는",
+          "effect": "slide",
+          "direction": "top",
+          "fontSize": 56,
+          "color": "#CCCCCC",
+          "startFrame": 0,
+          "bold": false
+        },
+        {
+          "text": "선불폰",
+          "effect": "scale",
+          "fontSize": 90,
+          "color": "#00E676",
+          "highlight": true,
+          "startFrame": 20,
+          "bold": true
+        },
+        {
+          "text": "라이트모바일에서",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 60,
+          "color": "#FFFFFF",
+          "startFrame": 90,
+          "bold": true
+        },
+        {
+          "text": "지금 바로 개통하세요!",
+          "effect": "shake",
+          "fontSize": 68,
+          "color": "#FFD600",
+          "highlight": true,
+          "startFrame": 130,
+          "bold": true
+        },
+        {
+          "text": "라이트모바일.com",
+          "effect": "charByChar",
+          "fontSize": 64,
+          "color": "#4FC3F7",
+          "highlight": true,
+          "startFrame": 200,
+          "bold": true
+        }
+      ]
+    }
+  ]
+}
