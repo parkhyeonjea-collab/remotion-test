@@ -226,9 +226,11 @@ export async function postToBlog(
     throw new Error('[브라우저] NAVER_ID, NAVER_PW 환경변수를 설정하세요');
   }
 
+  const executablePath = '/root/.cache/ms-playwright/chromium-1194/chrome-linux/chrome';
   const browser = await chromium.launch({
     headless: BROWSER.headless,
     slowMo: BROWSER.slowMo,
+    executablePath,
   });
 
   try {
@@ -286,6 +288,7 @@ if (require.main === module) {
     const browser = await chromium.launch({
       headless: BROWSER.headless,
       slowMo: BROWSER.slowMo,
+      executablePath: '/root/.cache/ms-playwright/chromium-1194/chrome-linux/chrome',
     });
     const page = await browser.newPage();
     await login(page);

@@ -6,18 +6,31 @@ interface KeywordResult {
   source: string;
 }
 
+let networkAvailable: boolean | null = null;
+
 /** 네이버 자동완성 API에서 키워드 수집 */
 async function fetchNaverSuggestions(query: string): Promise<string[]> {
+  // 이미 네트워크 불가 판정이면 즉시 스킵
+  if (networkAvailable === false) return [];
+
   try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 3000);
+
     const url = `https://ac.search.naver.com/nx/ac?q=${encodeURIComponent(query)}&con=1&frm=nv&ans=2&r_format=json&r_enc=UTF-8&r_unicode=0&t_koreng=1&run=2&rev=4&q_enc=UTF-8`;
-    const res = await fetch(url);
+    const res = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeout);
+
     if (!res.ok) return [];
+    networkAvailable = true;
     const data = await res.json();
-    // 네이버 자동완성 응답 구조: { items: [["키워드1", ...], ...] }
     const items: string[][] = data.items || [];
     return items.flat().filter((s: string) => typeof s === 'string' && s.length > 0);
   } catch (e) {
-    console.error(`[키워드] ${query} 수집 실패:`, (e as Error).message);
+    if (networkAvailable === null) {
+      console.log(`[키워드] 네이버 접근 불가 - 시드 키워드로 대체합니다.`);
+      networkAvailable = false;
+    }
     return [];
   }
 }
