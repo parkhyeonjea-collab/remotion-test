@@ -4,3 +4,5 @@ dist/
 video-script.json
 .env
 tts-models/
+blog-auto/out/
+blog-auto/node_modules/

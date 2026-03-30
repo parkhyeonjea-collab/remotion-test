@@ -1,0 +1,23 @@
+{
+  "name": "naver-blog-auto",
+  "version": "1.0.0",
+  "description": "네이버 블로그 자동 포스팅 - SEO 최적화 + 브라우저 자동화",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "keywords": "ts-node src/keywords.ts",
+    "generate": "ts-node src/content.ts",
+    "image": "ts-node src/image.ts",
+    "post": "ts-node src/browser.ts",
+    "test-seo": "ts-node src/seo.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.0",
+    "playwright": "^1.40.0",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
