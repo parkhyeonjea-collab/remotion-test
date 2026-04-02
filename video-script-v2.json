@@ -1,0 +1,267 @@
+{
+  "title": "신용불량 선불폰 개통 - 쇼츠",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": 1,
+      "durationInFrames": 97,
+      "backgroundColor": "#0a0a0a",
+      "audioFile": "audio/v2_scene_1.wav",
+      "transition": "flash",
+      "shake": false,
+      "blocks": [
+        {
+          "text": "통신사 개통",
+          "effect": "scale",
+          "fontSize": 78,
+          "color": "#FF3B3B",
+          "highlight": true,
+          "startFrame": 0,
+          "bold": true
+        },
+        {
+          "text": "거절당하셨어요?",
+          "effect": "shake",
+          "fontSize": 74,
+          "color": "#FFFFFF",
+          "startFrame": 15,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "durationInFrames": 245,
+      "backgroundColor": "#0d0d14",
+      "audioFile": "audio/v2_scene_2.wav",
+      "transition": "zoomIn",
+      "blocks": [
+        {
+          "text": "신용등급 낮거나,",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 58,
+          "color": "#CCCCCC",
+          "startFrame": 0,
+          "bold": false
+        },
+        {
+          "text": "직장 없거나,",
+          "effect": "slide",
+          "direction": "right",
+          "fontSize": 58,
+          "color": "#CCCCCC",
+          "startFrame": 25,
+          "bold": false
+        },
+        {
+          "text": "체납 이력 있으면",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 58,
+          "color": "#CCCCCC",
+          "startFrame": 50,
+          "bold": false
+        },
+        {
+          "text": "일반 통신사 개통이 안 되죠.",
+          "effect": "scale",
+          "fontSize": 60,
+          "color": "#FF9800",
+          "highlight": true,
+          "startFrame": 80,
+          "bold": true
+        },
+        {
+          "text": "근데 선불폰은 달라요.",
+          "effect": "shake",
+          "fontSize": 68,
+          "color": "#00E676",
+          "highlight": true,
+          "startFrame": 170,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "durationInFrames": 693,
+      "backgroundColor": "#0a0a12",
+      "audioFile": "audio/v2_scene_3.wav",
+      "transition": "flash",
+      "blocks": [
+        {
+          "text": "라이트모바일 선불폰은",
+          "effect": "slide",
+          "direction": "top",
+          "fontSize": 56,
+          "color": "#FFFFFF",
+          "startFrame": 0,
+          "bold": true
+        },
+        {
+          "text": "신용조회 없음.",
+          "effect": "scale",
+          "fontSize": 66,
+          "color": "#4FC3F7",
+          "highlight": true,
+          "startFrame": 30,
+          "bold": true
+        },
+        {
+          "text": "심사 없음.",
+          "effect": "scale",
+          "fontSize": 66,
+          "color": "#4FC3F7",
+          "highlight": true,
+          "startFrame": 60,
+          "bold": true
+        },
+        {
+          "text": "직장 없어도 OK.",
+          "effect": "shake",
+          "fontSize": 66,
+          "color": "#00E676",
+          "highlight": true,
+          "startFrame": 90,
+          "bold": true
+        },
+        {
+          "text": "편의점에서 유심 사서",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 52,
+          "color": "#CCCCCC",
+          "startFrame": 140,
+          "bold": false
+        },
+        {
+          "text": "웹사이트에서 개통하면 끝.",
+          "effect": "scale",
+          "fontSize": 58,
+          "color": "#FFD600",
+          "highlight": true,
+          "startFrame": 175,
+          "bold": true
+        },
+        {
+          "text": "KT 바로유심",
+          "effect": "shake",
+          "fontSize": 60,
+          "color": "#FF5252",
+          "highlight": true,
+          "startFrame": 230,
+          "bold": true
+        },
+        {
+          "text": "GS25·CU·이마트24·세븐일레븐",
+          "effect": "typing",
+          "fontSize": 40,
+          "color": "#CCCCCC",
+          "startFrame": 260,
+          "bold": false
+        },
+        {
+          "text": "LG유플러스 유심",
+          "effect": "shake",
+          "fontSize": 60,
+          "color": "#AB47BC",
+          "highlight": true,
+          "startFrame": 340,
+          "bold": true
+        },
+        {
+          "text": "이마트24·배민마트",
+          "effect": "typing",
+          "fontSize": 40,
+          "color": "#CCCCCC",
+          "startFrame": 370,
+          "bold": false
+        },
+        {
+          "text": "라이트모바일.com 접속",
+          "effect": "slide",
+          "direction": "right",
+          "fontSize": 52,
+          "color": "#4FC3F7",
+          "startFrame": 430,
+          "bold": true
+        },
+        {
+          "text": "→ 개통 신청 → 바로 사용!",
+          "effect": "scale",
+          "fontSize": 58,
+          "color": "#FFD600",
+          "highlight": true,
+          "startFrame": 470,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "durationInFrames": 219,
+      "backgroundColor": "#0d0d0d",
+      "audioFile": "audio/v2_scene_4.wav",
+      "transition": "zoomIn",
+      "blocks": [
+        {
+          "text": "월정액 없고,",
+          "effect": "scale",
+          "fontSize": 68,
+          "color": "#4FC3F7",
+          "highlight": true,
+          "startFrame": 0,
+          "bold": true
+        },
+        {
+          "text": "약정 없고,",
+          "effect": "scale",
+          "fontSize": 68,
+          "color": "#00E676",
+          "highlight": true,
+          "startFrame": 40,
+          "bold": true
+        },
+        {
+          "text": "조건 없어요.",
+          "effect": "shake",
+          "fontSize": 72,
+          "color": "#FFD600",
+          "highlight": true,
+          "startFrame": 80,
+          "bold": true
+        },
+        {
+          "text": "지금",
+          "effect": "slide",
+          "direction": "left",
+          "fontSize": 60,
+          "color": "#FFFFFF",
+          "startFrame": 150,
+          "bold": true
+        },
+        {
+          "text": "라이트모바일.com",
+          "effect": "charByChar",
+          "fontSize": 64,
+          "color": "#FF5252",
+          "highlight": true,
+          "startFrame": 175,
+          "bold": true
+        },
+        {
+          "text": "검색해보세요!",
+          "effect": "shake",
+          "fontSize": 66,
+          "color": "#FFD600",
+          "highlight": true,
+          "startFrame": 240,
+          "bold": true
+        }
+      ]
+    }
+  ]
+}
